@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title_h1">Bài tập JS Function</h1>
+
+    <section id="bai_1" class="baitap_container">
+        <h2>Bài 1 : Viết Function tính bình phương của 1 số</h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt1" type="text" placeholder="Nhập số bất kỳ">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap1()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div class="baitap_ketqua">
+                <p id="ketqua_bai1"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bai_2" class="baitap_container">
+        <h2>Bài 2. Viết function tính thế kỷ của 1 năm. Biết thế kỷ thứ nhất tính từ năm 1 đến 100.</h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt2" type="text" placeholder="Nhập năm bất kỳ">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap2()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div class="baitap_ketqua">
+                <p id="ketqua_bai2"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bai_3" class="baitap_container">
+        <h2>Bài 3. Cho 1 chuỗi dài hơn 15 ký tự. Viết 1 function cắt chuỗi, lấy ra 10 ký tự đầu tiên và thêm vào dấu
+            "..." ở cuối chuỗi.</h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt3" type="text" placeholder="Nhập ký tự bất kỳ">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap3()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div class="baitap_ketqua">
+                <p id="ketqua_bai3"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bai_4" class="baitap_container">
+        <h2>Bài 4. Viết 1 function có tác dụng biến 1 chuỗi thành chỉ viết hoa từ đầu tiên.
+        </h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt4" type="text" placeholder="Nhập chữ bất kỳ">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap4()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div class="baitap_ketqua">
+                <p id="ketqua_bai4"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bai_5" class="baitap_container">
+        <h2>Bài 5. Viết 1 function để tìm ra số nhỏ nhất trong 1 mảng</h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt5" type="text" placeholder="Nhập số bất kỳ">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap5()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div class="baitap_ketqua">
+                <p id="ketqua_bai5"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="bai_6" class="baitap_container">
+        <h2>Bài 6. Cho 1 mảng gồm tên của 5 học viên. Hãy viết function sắp xếp lại thứ tự các học viên theo bảng chữ
+            cái và in ra màn hình danh sách học viên.</h2>
+        <div class="baitap_content">
+            <div class="baitap_input">
+                <input id="input_bt6" type="text" placeholder="Nhập tên học sinh">
+                <br>
+                <div class="wrapper">
+                    <button onclick="baiTap6()"><span>Tính tiền em ơi</span></button>
+                </div>
+            </div>
+            <div id="bai6" class="baitap_ketqua"
+                style="padding: 5px; font-size: 20px; font-weight: 500; height: fit-content; min-height: 90px;">
+                <p id="bai6_title" style="display: none;">Danh sách học sinh là :</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>

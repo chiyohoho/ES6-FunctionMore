@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.title_h1 {
+    margin: 20px 0px 40px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.baitap_container {
+    position: relative;
+    margin: 20px auto;
+    width: 1600px;
+    margin-bottom: 20px;
+}
+
+.baitap_container::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+
+.baitap_container .baitap_content {
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.baitap_container .baitap_content .baitap_input {
+    width: 15%;
+    height: 100%;
+}
+
+.baitap_container .baitap_content .baitap_ketqua {
+    width: 30%;
+    height: 90%;
+    border: 2px solid black;
+}
+
+.baitap_container input {
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 83.5%;
+    border: 2px solid black;
+    outline: none;
+    text-align: center;
+
+    transition: 0.3s linear;
+
+}
+
+.baitap_container input:focus {
+    border: 2px solid red;
+    transition: 0.3s linear;
+
+}
+
+.baitap_container button:hover {
+    background: skyblue;
+}
+
+.baitap_container p {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+
+    padding: 10px;
+    text-align: center;
+}
+
+/* --------------- */
+button {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+
+button span {
+    position: relative;
+    z-index: 2;
+}
+
+button:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button:hover:after {
+    width: 100%;
+}
+
+/* --------------- */
+#bai6 span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
